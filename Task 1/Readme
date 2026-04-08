@@ -1,1 +1,204 @@
 # 
+Here is a **professional GitHub README.md** you can directly copy & paste. I’ve improved formatting, added badges-style structure, and made it look clean and internship-ready 👇
+
+---
+
+# 📡 Network Packet Sniffer using Python (Scapy)
+
+## 📌 Project Overview
+
+This project is a **Network Packet Sniffer** developed in Python using the powerful Scapy library. It captures and analyzes live network packets and extracts important information such as:
+
+* Source IP address
+* Destination IP address
+* Protocol type (TCP/UDP)
+* Packet payload
+
+This project demonstrates fundamental concepts of **network monitoring, packet analysis, and cybersecurity**, making it ideal for internship-level work.
+
+---
+
+## 🎯 Objectives
+
+* Capture live network traffic
+* Analyze packet structure
+* Identify communication protocols (TCP/UDP)
+* Extract and display packet payload
+* Understand how data flows across a network
+
+---
+
+## 🛠️ Technologies Used
+
+* **Programming Language:** Python
+* **Library:** Scapy
+* **Platform:** Windows / Linux
+* **Tool:** VS Code
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Install Python
+
+Make sure Python 3.x is installed:
+
+```bash
+python --version
+```
+
+### 2️⃣ Install Scapy
+
+```bash
+pip install scapy
+```
+
+### 3️⃣ Run the Program
+
+```bash
+python task1.py
+```
+
+💡 **Note:**
+
+* On Windows → Run as Administrator
+* On Linux → Use sudo:
+
+```bash
+sudo python task1.py
+```
+
+---
+
+## 📜 Code Explanation
+
+### 🔹 Importing Libraries
+
+```python
+from scapy.all import sniff, IP, TCP, UDP
+```
+
+* `sniff` → Captures packets
+* `IP` → Handles IP layer
+* `TCP/UDP` → Detects protocol
+
+---
+
+### 🔹 Packet Processing Function
+
+```python
+def process_packet(packet):
+```
+
+This function runs every time a packet is captured.
+
+It performs:
+
+* Extracts source & destination IP
+* Detects protocol (TCP/UDP/Other)
+* Displays packet payload
+
+---
+
+### 🔹 Payload Handling
+
+```python
+payload = bytes(packet.payload)
+```
+
+* Converts packet into readable bytes
+* Displays only first 50 bytes
+
+---
+
+### 🔹 Sniffer Function
+
+```python
+sniff(prn=process_packet, store=False)
+```
+
+* Calls function for each packet
+* `store=False` improves performance
+
+---
+
+### 🔹 Main Execution
+
+```python
+if __name__ == "__main__":
+    start_sniffer()
+```
+
+---
+
+## 🧪 Sample Output
+
+```
+--- Packet Captured ---
+Source IP: 104.18.39.21
+Destination IP: 192.168.10.9
+Protocol: TCP
+Payload: b'...'
+```
+
+---
+
+## 🚀 Key Features
+
+* Real-time packet capture
+* Protocol identification (TCP/UDP)
+* Lightweight and efficient
+* Beginner-friendly implementation
+* Payload inspection
+
+---
+
+## ⚠️ Limitations
+
+* Cannot decode encrypted traffic (HTTPS)
+* Payload may not always be human-readable
+* No packet filtering
+* Requires admin/root privileges
+
+---
+
+## 🔮 Future Improvements
+
+* Add packet filtering (IP/Protocol based)
+* Decode HTTP/HTTPS traffic
+* Save packets to PCAP file
+* Build GUI interface
+* Add traffic statistics
+
+---
+
+## 🔐 Ethical Considerations
+
+This tool is intended for **educational purposes only**.
+
+* Do not use on unauthorized networks
+* Always have permission before monitoring traffic
+* Respect privacy and legal regulations
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Awais Asif**
+Internship Submission
+
+---
+
+## 📂 Project Files
+
+* 📄 Report: 
+* 🐍 Python Code: 
+
+---
+
+If you want, I can also:
+✅ Add screenshots section
+✅ Add GitHub badges (stars, forks, etc.)
+✅ Make it more “top-student level” (for better impression)
+
+Just tell me 👍
