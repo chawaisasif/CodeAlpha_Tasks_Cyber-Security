@@ -179,10 +179,3 @@ The insecure system contains critical vulnerabilities such as plaintext password
 The improved version enhances security using hashing and validation but still requires additional protections for real-world use.
 
 ---
-
-If you want next level 🔥:
-✅ I can **combine ALL your tasks into one professional GitHub portfolio README**
-✅ Add **badges + screenshots + better formatting**
-✅ Make it look like a **top cybersecurity student portfolio**
-
-Just tell me 👍
