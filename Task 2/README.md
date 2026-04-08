@@ -154,10 +154,3 @@ Always follow ethical guidelines and do not misuse this knowledge.
 Internship Submission
 
 ---
-
-If you want, I can also:
-✅ Combine **all your tasks into ONE GitHub repo README**
-✅ Add **cover images / badges / better styling**
-✅ Make it look **top-level professional (like senior projects)**
-
-Just tell me 👍
